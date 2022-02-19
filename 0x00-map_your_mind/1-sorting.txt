@@ -1,0 +1,49 @@
+**This program reads in three numbers and writes them all in sorted order**
+
+{
+In the main function 
+	
+	Print prompt “Input three numbers”
+	
+	Take the three numbers from the user and represent as n1, n2 and n3 
+
+	Define variables for 
+H= Highest Value number 
+				M= Middle Value number
+				L= Lowest Value number
+}
+			
+
+function sortedOrder (n1, n2, n3) {
+
+	FOR three numbers inputted 
+		IF n1 is greater than n2 and n3 
+		Set as H
+
+			ELSE IF n2 is greater than n1 and n3 
+			Set as H
+
+				ELSE IF n3 is greater than n1 and n2
+				Set as H
+
+		IF n1 is less than n2 and n3
+		Set as L 
+		
+			ELSE IF n2 is less than n1 and n3 
+			Set as L 
+
+				ELSE IF n3 is less than n1 and n2 
+				Set as L 
+
+		IF H and L is not equal to n1 THEN 
+		Set M as n1 
+
+			ELSE IF H and M is not equal to n2 THEN 
+			Set M as n2 
+
+				ELSE IF H and M is not equal to n3 THEN 
+				Set M as n3
+
+return result to user from lowest to highest as L,M,H 
+}
+

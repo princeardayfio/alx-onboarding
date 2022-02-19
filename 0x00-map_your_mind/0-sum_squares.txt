@@ -1,0 +1,33 @@
+**This program calculate the sum of squares of given input of numbers**
+
+function square (sum1) {
+	
+	Calculate the the square of an inputted number by multiplying the number by itself 
+
+	Return the result (sum1)
+end
+}
+
+function sumSquare (sum1,sum2,sum_square) {
+
+	Calculate the square of the inputted number(sum2)  by multiplying it with itself and 
+	adding the result to the initial result 
+
+	Return the result (sum_square)
+end
+}
+
+{
+In the main function 
+
+	Print prompt “Input a number”
+
+	Send the first number to the function square	
+	and print the result to the user 
+
+	Print prompt “Input another number”
+
+	Send the second number to the function sumSquare
+	and print the result to the user
+}
+

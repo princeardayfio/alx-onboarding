@@ -1,0 +1,36 @@
+**This program will calculate a running sum and stop when a negative number is encountered**
+
+function firstSum (n1) {
+	
+	Check if n1 is greater than 0 THEN 
+	return result to user 
+
+}
+end
+
+function runningSum (n) {
+
+	For every inputted number 
+		IF n is greater than 0 
+THEN add n to firstSum
+
+	ELSE IF n is less than 0 
+
+return the result to user 
+}
+end 
+
+{
+In the main function
+
+print prompt "Input number"
+         
+  	Take the first number from the user
+	Print the result to the user 
+
+  	print prompt “Input another number”
+If greater than zero add to take number to function firstSum and add 
+	else if less than zero
+
+Print result to user  
+}	
